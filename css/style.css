@@ -1,0 +1,110 @@
+
+body {
+    background-image:url(../image/fondo1.jpg);
+    
+        
+  }
+
+
+  .btn {
+    background-color: #3DD1E7;
+    border: 0 solid #E5E7EB;
+    box-sizing: border-box;
+    color: #000000;
+ 
+    font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 700;
+    justify-content: center;
+    line-height: 1.75rem;
+    padding: .75rem 1.65rem;
+   
+    text-decoration: none #000000 solid;
+    text-decoration-thickness: auto;
+  
+    max-width: 20px;
+    
+    cursor: pointer;
+    transform: rotate(-2deg);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .btn:focus {
+    outline: 0;
+  }
+  
+  .btn:after {
+    content: '';
+    position: absolute;
+    border: 1px solid #000000;
+    bottom: 4px;
+    left: 4px;
+    width: calc(100% - 1px);
+    height: calc(100% - 1px);
+  }
+  
+  .btn:hover:after {
+    bottom: 2px;
+    left: 2px;
+  }
+
+.player-buttons {
+  width: 50%;
+  margin: 0 auto;
+
+}
+
+.container{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.song-name{
+  font-family:"Rock Salt";
+
+}
+
+.song-author{
+font-family:"Rock Salt";
+}
+
+
+
+.player_box {
+  position: relative;
+  margin: 100px 5% auto 5%;
+  width: 90%;
+  max-width: 500px;
+  height: 100%;
+  background: #fff; 
+}
+
+.player_box:before {
+  position: absolute;
+  content: '';
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  left: -2px;
+  top: -2px;
+  background: linear-gradient(to left, #007db5, #ff8a00);
+  z-index: -1;
+
+}
+
+
+#player-progress{
+width: 100%;
+background-color: #000000;
+}
+
+.img_cassette {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
